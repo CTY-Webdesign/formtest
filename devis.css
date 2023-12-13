@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ /************************MOBILE FIRST************/
+ @media only screen and (max-width: 768px) {
+    .form {
+        width: 100%; /* Full width on smaller screens */
+    }
+    .info-container img {
+        width: 300px;
+        padding-bottom: 50px;
+    }
+
+
+    
+
+    /******************** FOOTER SECTION *******************/
+    #footer{
+        bottom: 0;
+        position: absolute;
+        background-color: black;
+        width: 100%;
+    }
+    
+    .column-footer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+    }
+    
+    .column ul{
+        list-style: none;
+        
+    }
+    
+    .column ul a{
+        color: grey;
+    }
+    
+    .column h2{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .column ul li{
+        text-align: center;
+        font-size: 15px;    
+    }
+    
+    .column ul li i{
+        padding-right: 10px;    
+    }
+
+}
+/*************************************NAVBAR SECTION******************************************************/
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #14406c, #14406c);
+    
+}
+
+#navbar .navbar-nav .nav-item {
+    padding: 0 50px;
+    
+}
+
+#navbarNav .nav-link {
+    color: #fffefe;
+    font-weight: 600;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fffefe;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+#navbarNav .button{
+     
+    background-color: #fff;
+}
+
+#navbarNav .button h6{
+    margin: 10px 10px;
+    color: #14406c;
+    
+
+}
+
+#navbarNav .button:hover{
+    background-color: #14406c;
+    -webkit-background-composite:1s;
+    
+}
+
+#navbarNav .button h6:hover{
+    margin: 10px 10px;
+    color: #14406c;
+    
+
+}
+/************************************FORM******************************************************/
+#mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.info-container img {
+    max-width: 600px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.info-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-container li {
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 50% ; 
+    margin-top: 20px; 
+    
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+    
+}
+
+.btn-primary  {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
+    background-color: #14406c;
+    color: white;
+}
+/*************************************FOOTER******************************************************/
+#footer{
+    bottom: 0;
+    position:relative;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.column-footer{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.column ul{
+    list-style: none;
+    
+}
+
+.column ul a{
+    color: #fffefe;
+}
+
+.column h2{
+    color: #fffefe;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.column ul li{
+    text-align: center;    
+}
+
+.column ul li i{
+    padding-right: 10px; 
+    font-size: 30px; 
+    color: #fffefe; 
+}
